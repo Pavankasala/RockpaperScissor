@@ -23,7 +23,7 @@ def play_game():
     print("Welcome to Rock, Paper, Scissors!")
     while True:
         user_choice = get_user_choice()
-        computer_choice = get_csomputer_choice()
+        computer_choice = get_computer_choice()
         print("You chose:", user_choice)
         print("Computer chose:", computer_choice)
         print(determine_winner(user_choice, computer_choice))
