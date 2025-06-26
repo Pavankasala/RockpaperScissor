@@ -6,7 +6,7 @@ def get_user_choice():
         choice = input("Invalid choice ").lower()
     return choice
 
-def get_csomputer_choice():
+def get_computer_choice():
     return random.choice(['rock', 'paper', 'scissors'])
 
 def determine_winner(user_choice, computer_choice):
